@@ -33,6 +33,8 @@ app.use("/api/v1/", payment);
 import other from "./routes/otherRoutes.js";
 app.use("/api/v1/", other);
 
+app.use(ErrorMiddleware);
+
+
 export default app;
 
-app.use(ErrorMiddleware);
