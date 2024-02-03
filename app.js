@@ -4,7 +4,7 @@ import ErrorMiddleware from "./middlewares/Error.js";
 import cookieParser from "cookie-parser";
 
 config({
-  path: "./config/config.env",
+  path: "config.env",
 });
 const app = express();
 
